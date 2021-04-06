@@ -1,0 +1,17 @@
+{
+  "name": "chai_test_api",
+  "version": "1.0.0",
+  "description": "Test API with Chai Javascript framework",
+  "main": "index.js",
+  "author": "Thoeun Sopheara <thoeun.sopheara@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "mocha index.js --timeout 100000"
+  },
+  "dependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.3.2"
+  }
+}
