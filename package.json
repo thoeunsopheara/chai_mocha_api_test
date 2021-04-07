@@ -7,7 +7,8 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "mocha index.js --timeout 100000"
+    "start": "mocha index.js --timeout 100000",
+    "dev": "mocha breaking-down/index.js --timeout 100000"
   },
   "dependencies": {
     "chai": "^4.3.4",
